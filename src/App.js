@@ -1,14 +1,8 @@
 import "./App.css"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Header from "./components/Header"
+import Home from './views/Home'
 
-function Home() {
-  return (
-    <>
-      <h2>Home</h2>
-    </>
-  )
-}
 
 function Checkout() {
   return <h2>Checkout</h2>
@@ -21,7 +15,6 @@ function Login() {
 function App() {
   return (
     <>
-      
       <Router>
       <Header />
         <Routes>

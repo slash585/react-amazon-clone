@@ -25,6 +25,10 @@
   width: 100%;
 }
 
+.headerSearchInput:focus {
+    outline: none !important;
+}
+
 .headerSearchIcon {
   background-color: #cd9042;
   padding: 5px;
